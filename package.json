@@ -1,0 +1,11 @@
+{
+  "name": "salescommand",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dependency-free live field sales manager for India.",
+  "scripts": {
+    "start": "node server.js",
+    "build": "node -e \"console.log('Static app ready in public/')\"",
+    "test": "node --check server.js"
+  }
+}
